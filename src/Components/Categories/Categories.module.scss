@@ -1,0 +1,28 @@
+$margin-top: 30px;
+.categories-box {
+  margin-top: $margin-top;
+  .container-list {
+    width: 80%;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: $margin-top;
+    display: flex;
+    .list-item {
+      flex: 0 0 auto;
+      height: 100%;
+      margin: 0 auto;
+      img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        padding: 5px;
+      }
+      .category-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+      }
+    }
+  }
+}

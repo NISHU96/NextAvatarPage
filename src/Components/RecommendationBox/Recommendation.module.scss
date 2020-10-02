@@ -1,0 +1,43 @@
+$margin-top: 30px;
+.recommendation-box {
+  background-image: url("../../../public/assets/polymesh.png");
+  background-size: cover;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: $margin-top;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  .recommendation-header {
+    display: flex;
+    img {
+      margin-top: 10px;
+      margin-left: 10px;
+      height: 50%;
+      width: 3%;
+    }
+    p {
+      margin-top: 10px;
+      margin-left: 10px;
+      font: normal normal bold 40px/30px Century Gothic;
+      text-shadow: 0px 2px 3px black;
+    }
+  }
+  .recommended-products {
+    margin: 0 auto;
+    height: 700px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    overflow-y: auto;
+    .product {
+      // margin-left: 10px;
+      height: 340px;
+      width: 90%;
+    }
+  }
+}
+
+.recommended-products::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}

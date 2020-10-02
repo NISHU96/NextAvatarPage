@@ -1,0 +1,128 @@
+.itemss {
+  position: relative;
+  width: 190px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 6px #0000002f;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  margin-top: 20px;
+  margin-left: 7px;
+}
+
+.item {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.pictu {
+  display: block;
+  width: 100%;
+  margin: 0 auto 0;
+  width: 190px;
+  height: 250px;
+  -webkit-transition: 0.5s;
+}
+
+.heart {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.description {
+  position: absolute;
+  width: 100%;
+  bottom: -45px;
+  background-color: #ddedfd;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+}
+.itemss:hover .description {
+  bottom: 0;
+  transition: all 0.5s;
+  -webkit-transition: 0.5s;
+}
+.itemss:hover {
+  transform: scale(1.1);
+  -webkit-transition: 0.5s;
+}
+
+.itemss:hover .pictu {
+  width: 150px;
+  height: 200px;
+  transition: all 0.5s;
+  -webkit-transition: 0.5s;
+}
+.brand {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+  text-shadow: 0px 1.3px 3px RGB(170, 170, 170);
+}
+.type {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 3px;
+  color: #000;
+  text-shadow: 0px 1.3px 3px RGB(170, 170, 170);
+}
+.cod {
+  font-size: 10px;
+  margin: 0;
+  color: grey;
+  text-shadow: 0px 1.3px 3px RGB(170, 170, 170);
+}
+.rate {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+  text-shadow: 0px 1.3px 3px RGB(170, 170, 170);
+}
+.size {
+  display: block;
+  margin-top: 5 px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.size-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.list-item {
+  list-style: none;
+  margin: 5px 5px 0;
+  font-size: 15px;
+  font-weight: normal;
+  color: #000;
+}
+.babba {
+  position: absolute;
+  top: 50px;
+  right: 8px;
+  font-weight: bold;
+  color: #000;
+  font-size: 10px;
+  text-shadow: 0px 1.3px 3px RGB(170, 170, 170);
+}
+.wrapper {
+  text-align: center;
+  margin: 2;
+}
+.ad {
+  position: absolute;
+  top: 50%;
+}

@@ -1,0 +1,14 @@
+.components {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  .component {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  }
+}

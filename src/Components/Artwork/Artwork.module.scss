@@ -1,0 +1,67 @@
+.artwork-container {
+  // border: 3px solid red;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 80%;
+  height: 600px;
+  .first-container {
+    // position: relative;
+    display: flex;
+    .logo {
+      margin-left: 0;
+      width: 10%;
+      img {
+        margin-top: 10%;
+        width: 80%;
+      }
+    }
+
+    .artwork-text {
+      // border: 2px solid black;
+      text-align: center;
+      width: 50%;
+      .heading-text {
+        font: normal normal normal 30px/20px Century Gothic;
+        color: #414141;
+      }
+      .body-text {
+        margin-top: 5%;
+        font: normal normal normal 25px/20px Century Gothic;
+        color: #414141;
+      }
+      .grey-text {
+        font: normal normal normal 25px/20px Century Gothic;
+        color: #888888;
+      }
+    }
+    .artwork {
+      height: 100%;
+      width: 40%;
+      right: 0;
+      img {
+        width: 100%;
+        height: 90%;
+        margin-top: 5%;
+      }
+    }
+  }
+
+  .second-container {
+    // border: 2px solid black;
+    height: 45%;
+    display: flex;
+    img {
+      margin-left: 10%;
+      width: 20%;
+      height: 50%;
+      // border: 2px solid black;
+    }
+    .second-text {
+      // border: 2px solid black;
+      margin-left: 10%;
+      font: normal normal normal 25px/20px Century Gothic;
+      color: #414141;
+      text-align: center;
+    }
+  }
+}

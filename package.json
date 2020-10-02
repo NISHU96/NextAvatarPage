@@ -8,8 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "next": "9.3.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-multi-carousel": "^2.5.5",
+    "run": "^1.4.0",
+    "sass": "^1.26.10",
+    "styled-components": "^5.2.0"
   }
 }
